@@ -4,7 +4,7 @@
 
 > Have you booked your Easter meal at The Mews? We still have a few tables left so be sure to book now while availability lasts. Good company and great food, sounds like the perfect Easter to us. Call 01702 393 626 for reservations. Southend Lunch Easter
 
-**Sentiment : ** 0.9411
+** Sentiment : ** 0.9411
 
 The sentiment predicted is accurate. The sentiment of the tweet is positive.
 
