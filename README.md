@@ -1,6 +1,6 @@
 # Twitter task
 
-**resident**
+
 
 ## Sample tweets and their sentiment
 
@@ -22,6 +22,12 @@ Again, the sentiment predicted reflects the actual sentiment pretty accurately.
 **Sentiment:** 0.0
 
 Example of a neutral tweet.
+
+## Methodology
+
+
+
+
 
 
 
