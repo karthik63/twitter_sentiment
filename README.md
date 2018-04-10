@@ -13,7 +13,7 @@ The sentiment predicted is accurate. The sentiment of the tweet is positive.
 > AsaramBapuJi Hindu Sant Asaram Bapu Ji Framed by fake allegations With back to back Conspiracy ; Anti Hindu Powers are systematically targeting the Pillars of Hindu Dharma; And leading HINDUISM towards DISASTER!! Hindu Unity Need Of Time. BJP4India RSSorg sanatansanstha vskdelhi
 
 
-**Sentiment:** .9351
+**Sentiment:** -.9351
 
 Again, the sentiment predicted reflects the actual sentiment pretty accurately.
 
@@ -25,7 +25,7 @@ Example of a neutral tweet.
 
 ## Methodology
 
-
+ 
 
 
 
