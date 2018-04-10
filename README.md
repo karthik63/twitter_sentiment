@@ -24,7 +24,7 @@ Again, the sentiment predicted reflects the actual sentiment pretty accurately.
 Example of a neutral tweet.
 
 ## Methodology
-
+To scrape the tweets I have used twitter's standard search API through Twython.
  
 
 
