@@ -24,7 +24,11 @@ Again, the sentiment predicted reflects the actual sentiment pretty accurately.
 Example of a neutral tweet.
 
 ## Methodology
-To scrape the tweets I have used twitter's standard search API through Twython.
+To scrape the tweets I have used twitter's standard search API through Twython. The file tweet_scraper.py uses Twython to extract tweets with search term "the" and uses pymongo to interface to a MongoDB database.
+
+For extracting news articles I have used the [EventRegistry API](http://eventregistry.org/documentation) using the eventregistry module. 
+
+
  
 
 
