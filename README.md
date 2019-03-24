@@ -1,4 +1,4 @@
-# Twitter task
+# Twitter sentiment analysis
 
 # Analysis, Visualisations at http://167.99.83.32/page2.html
 # http://167.99.83.32
