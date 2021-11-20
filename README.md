@@ -3,7 +3,7 @@
 # Analysis, Visualisations at http://167.99.83.32/page2.html
 # http://167.99.83.32
  -->
-## Search only works on edge / chrome on desktop chrome on mobile. 
+<!-- ## Search only works on edge / chrome on desktop chrome on mobile.  -->
 <!-- Please don't use firefox -->
 
 ## A positive sentiment score indicates a positive sentiment and a negative score indicates a negative sentiment. The magnitude is the confidence.
