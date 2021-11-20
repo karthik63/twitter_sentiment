@@ -1,0 +1,44 @@
+#! /var/www/TweetApp/TweetApp/venv/bin/python
+
+import sys
+
+from flask import Flask, render_template, request, redirect, Response
+
+import random, json
+
+from pymongo import MongoClient
+
+app = Flask(__name__)
+
+@app.route('/')
+def output():
+	# serve index template
+	return render_template('index.html', name='Joe')
+
+@app.route('/receiver', methods = ['POST'])
+def worker():
+
+	data = request.get_json()
+	result = ''
+
+	answer = {}
+
+	if data['type'] == "query":
+		connection = MongoClient()
+
+		db = connection["test_db"]
+
+                record = db["tweets"].find({"ne_list" : data["input"]})
+
+		answer["tweets_text_body"] = record["text_body"]
+
+		answer["tweets_sentiment"] = record["sentiment"]["compound"]
+
+		db[collection_name].find({"ne_list" : ne})
+
+
+	return result
+
+if __name__ == '__main__':
+	# run!
+	app.run()

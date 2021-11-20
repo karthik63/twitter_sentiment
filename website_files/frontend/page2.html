@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Analysis</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="css2/bootstrap.min.css" rel="stylesheet">
+    <link href="css2/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<h3>
+				General Sentiment Analysis
+			</h3>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<p>
+				The five most common named entities in the tweets dataset are: (in descending order of frequency):<br>
+				1)Easter<br>
+				2)Jesus<br>
+				3)Trump<br>
+				4)BTS (Korean pop band)<br>
+				5)India<br>
+
+			<b> In all these graphs, the y-axis reprsents the confidence with the sentiment score</b>
+			</p>
+		</div>
+		<div class="col-md-6">
+			<img alt="Bootstrap Image Preview", src="images/tweets.png">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<p>
+				The sentiment of news articles with the same named entites are generally the same. "Trump" and "India" consistently receive low (negative) sentiment scores. BTS and easter consistently receive high sentiment scores
+ 			</p>
+		</div>
+		<div class="col-md-6">
+			<img alt="Bootstrap Image Preview", src="images/news_histo.png">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<p>
+				This is a combined histogram showing how sentiments vary from tweets to news articles.
+			</p>
+		</div>
+		<div class="col-md-6">
+			<img alt="Bootstrap Image Preview" src="images/histo_combined.png">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<h3>
+				Temporal Analysis - Tweets
+			</h3>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<h3>
+				Keyword: Easter
+			</h3><img alt="Bootstrap Image Preview" src="images/easter_tweet_temporal.png">
+			
+			<h3>
+				Keyword: Jesus
+			</h3><img alt="Bootstrap Image Preview" src="images/jesus_tweet_temporal.png">
+			<h3>
+				Keyword: Trump
+			</h3><img alt="Bootstrap Image Preview" src="images/trump_tweet_temporal.png">
+			<h3>
+				Keyword: BTS
+			</h3><img alt="Bootstrap Image Preview" src="images/bts_tweet_temporal.png">
+
+			<h3>
+				Keyword: India
+			</h3><img alt="Bootstrap Image Preview" src="images/india_tweet_temporal.png">
+			<p>
+				As the a cycle is at least 8 hours and the tweets were scraped with a few minutes of each other there is very little correlation between the sentiment and the time that the tweet was made.
+			</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<h3>
+				h3. Lorem ipsum dolor sit amet.
+			</h3>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<h3>
+				Keyword: Easter
+			</h3><img alt="Bootstrap Image Preview" src="images/easter_news_temporal.png">
+			
+			<h3>
+				Keyword: Jesus
+			</h3><img alt="Bootstrap Image Preview" src="images/jesus_news_temporal.png">
+			<h3>
+				Keyword: Trump
+			</h3><img alt="Bootstrap Image Preview" src="images/trump_news_temporal.png">
+			<h3>
+				Keyword: BTS
+			</h3><img alt="Bootstrap Image Preview" src="images/bts_news_temporal.png">
+
+			<h3>
+				Keyword: India
+			</h3><img alt="Bootstrap Image Preview" src="images/india_news_temporal.png">
+			<p>
+			 	Similar to tweets, The news API tends to scrape very recent news articles.
+			</p>
+		</div>
+
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<h3>
+				Spatial Analysis
+			</h3>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<p>
+				As expected, The majority of tweets about easter are positive and most of originate from countries with a Christian majority like the USA, Countries in Northern Europe, South Africa and Australia.
+			</p>
+		</div>
+		<div class="col-md-6">
+			<img alt="Bootstrap Image Preview" src="images/spatial_easter.png">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<p>
+				A very similar spatial distribution is observed with the keyword "jesus" 
+			</p>
+		</div>
+		<div class="col-md-6">
+			<img alt="Bootstrap Image Preview" src="images/spatial_jesus.png">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<p>
+				The majority of the tweets about Trump are negative and originate from the USA.
+			</p>
+		</div>
+		<div class="col-md-6">
+			<img alt="Bootstrap Image Preview" src="images/spatial_trump.png">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<p>
+				Most tweets about BTS originate from South - East Asia, which is to be expected as BTS is a Korean pop band.
+			</p>
+		</div>
+		<div class="col-md-6">
+			<img alt="Bootstrap Image Preview" src="images/spatial_bts.png">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<p>
+			Tweets about India are mainly clustured around India.
+			</p>
+		</div>
+		<div class="col-md-6">
+			<div class="col-md-6">
+			<img alt="Bootstrap Image Preview" src="images/spatial_india.png">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<h3>
+				Tag cloud - news articles
+			</h3>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<img alt="Bootstrap Image Preview" src="images/tc_tweets.png">
+		</div>
+	</div>
+	<div class="row">
+
+<h3>
+				Tag cloud - tweets
+			</h3>
+		<div class="col-md-12">
+			<img alt="Bootstrap Image Preview" src="images/tc_news.png">
+		</div>
+	</div>
+</div>
+
+    <script src="js2/jquery.min.js"></script>
+    <script src="js2/bootstrap.min.js"></script>
+    <script src="js2/scripts.js"></script>
+  </body>
+</html>
